@@ -1,0 +1,55 @@
+/* Color.css */
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #c5c6c6;
+    --enfasis: #28b3a0;
+    --enfasis2: #14a187;
+    --enfasis3: #0f6e61; /* Azul principal */
+    --enfasis4: #0056b3; /* Azul oscuro para hover */
+    --text-color: #272727; /* Color de texto */
+    --text-color2: #eee;
+    --background-color1: #eaf2f8; 
+    --background-color2: #c6c6c6;
+    --background-color3: #939393;
+    --titulo: #555;
+    --titulo2: #fff;
+    --danger1:#c41b4a;
+    --danger2:#942645;
+  }
+  
+  [data-theme="dark"] {
+    --primary-color: #121212;
+    --secondary-color: #1e1e1e;
+    --text-color: #ffffff;
+    --text-color2: #222;
+    --enfasis: #008f7c;
+    --enfasis2: #00bf9c;
+    --enfasis3: #2adec6;
+    --titulo: #ccc;
+    --titulo2: #333;
+    --background-color1: #121212;
+    --background-color2: #222328;
+    --background-color3: #42444e;
+  }
+  
+  [data-theme="gray"] {
+    --primary-color: #ccc; 
+    --secondary-color: #b3c1e5;
+    --text-color: #333333; 
+    --text-color2: #eee;
+    --enfasis: #528eff;
+    --enfasis2: #0058fe ;
+    --enfasis3: #003495;
+    --titulo: #fff;
+    --titulo2: #fff;
+    --background-color1: #a9afbe; /* Fondo claro */
+    --background-color2: #788199;
+    --background-color3: #505565;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color1);
+  }
+

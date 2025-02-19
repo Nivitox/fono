@@ -1,0 +1,14 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529; /* Texto oscuro */
+  background-color: var(--background-color1);
+}
+
+/* .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+} */

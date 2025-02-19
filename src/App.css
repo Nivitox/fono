@@ -1,0 +1,115 @@
+/* ============================
+   Estilos Base (Escritorio)
+   ============================ */
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+
+.sidebar-container {
+  width: 200px; 
+  transition: width 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.sidebar-container:has(.sidebar.collapsed-sidebar) {
+  width: 60px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 3;
+}
+
+/* Header */
+.header {
+  background-color: var(--background-color1);
+  color: var(--enfasis1);
+  padding: 0rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Contenido principal */
+.content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: var(--background-color1);
+  color: var(--text-color1);
+  display: flex;
+  flex-direction: column;
+}
+
+.subrayado {
+  width: 80%;
+  background-color: var(--enfasis7);
+  height: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 3px;
+  margin-bottom: 0;
+}
+
+@media (orientation: portrait) {
+
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar-container {
+    width: 100%;
+    box-shadow: none;
+    bottom: 0;
+  }
+
+  .main-content {
+    margin-bottom: 60px;
+  }
+}
+
+/* ============================
+   Estilos para el icono de fondo
+   ============================ */
+
+   .background-icon {
+    position: fixed; /* Mantenemos fixed para posicionamiento preciso */
+    bottom: 20px;
+    right: 20px;
+    z-index: 0; /* Cambiamos a 0 para que esté por encima del fondo pero detrás del contenido */
+    width: 500px;
+    height: 500px;
+    pointer-events: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+   
+  .background-icon svg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    fill: transparent;
+  }

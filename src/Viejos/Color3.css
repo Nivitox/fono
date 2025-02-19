@@ -1,0 +1,56 @@
+/* Color.css */
+
+:root {
+  --enfasis1: #00A8CC; /* Turquesa brillante */
+  --enfasis2: #007C9C; /* Azul petróleo */
+  --enfasis3: #FFD166; /* Amarillo cálido */
+  --enfasis4: #EF476F; /* Rojo vibrante */
+  --text-color1: #222831; /* Negro suave */
+  --text-color2: #393E46; /* Gris oscuro */
+  --background-color1: #F8F9FA; /* Blanco puro */
+  --background-color2: #E9ECEF; /* Gris claro */
+  --background-color3: #DEE2E6; /* Gris intermedio */
+  --background-color4: #ADB5BD; /* Gris neutro */
+  --titulo1: #007C9C; /* Azul petróleo */
+  --titulo2: #393E46; /* Gris oscuro */
+    --danger1:#c41b4a;
+    --danger2:#942645;
+  }
+  
+  [data-theme="dark"] {
+    --enfasis1: #00A8CC; /* Turquesa brillante */
+    --enfasis2: #64DFDF; /* Celeste vibrante */
+    --enfasis3: #FFD166; /* Amarillo cálido */
+    --enfasis4: #FF6B6B; /* Rojo coral */
+    --text-color1: #EAEAEA; /* Blanco humo */
+    --text-color2: #B0B0B0; /* Gris claro */
+    --background-color1: #121212; /* Casi negro */
+    --background-color2: #1E1E1E; /* Gris oscuro */
+    --background-color3: #252525; /* Gris intermedio */
+    --background-color4: #343A40; /* Gris azulado oscuro */
+    --titulo1: #64DFDF; /* Celeste vibrante */
+    --titulo2: #FFD166; /* Amarillo cálido */
+
+  }
+  
+  [data-theme="gray"] {
+    --enfasis1: #4A90E2; /* Azul brillante */
+    --enfasis2: #1C77C3; /* Azul profundo */
+    --enfasis3: #50E3C2; /* Verde agua */
+    --enfasis4: #E94E77; /* Magenta intenso */
+    --text-color1: #2C3E50; /* Azul grisáceo oscuro */
+    --text-color2: #7F8C8D; /* Gris intermedio */
+    --background-color1: #ECF0F1; /* Gris claro */
+    --background-color2: #BDC3C7; /* Gris medio */
+    --background-color3: #95A5A6; /* Gris azulado */
+    --background-color4: #34495E; /* Azul grisáceo oscuro */
+    --titulo1: #1C77C3; /* Azul profundo */
+    --titulo2: #2C3E50; /* Azul grisáceo oscuro */
+
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color1);
+  }
+

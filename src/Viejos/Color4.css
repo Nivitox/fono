@@ -1,0 +1,70 @@
+/* Color.css */
+
+:root {
+    --enfasis1: #9b59b6; /* Púrpura vibrante */
+    --enfasis2: #8e44ad; /* Púrpura más oscuro */
+    --enfasis3: #b37fc4; /* Púrpura más claro */
+    --enfasis4: #d3a5dd; /* Púrpura pastel */
+    
+    --text-color1: #2c3e50; /* Azul grisáceo oscuro */
+    --text-color2: #34495e; /* Gris azulado */
+    --text-color3: #ecf0f1; /* Blanco grisáceo */
+    
+    --background-color1: #ecf0f1; /* Gris muy claro */
+    --background-color2: #ffffff; /* Blanco */
+    --background-color3: #dcdde1; /* Gris suave */
+    --background-color4: #f8f9fa; /* Gris casi blanco */
+    
+    --titulo1: #6c3483; /* Púrpura profundo */
+    --titulo2: #8e44ad; /* Púrpura oscuro */
+
+      --danger1:#c41b4a;
+      --danger2:#942645;
+}
+    
+[data-theme="dark"] {
+    --enfasis1: #3ddbd9; /* Turquesa brillante */
+    --enfasis2: #3aa7c1; /* Azul turquesa medio */
+    --enfasis3: #2f6fa3; /* Azul profundo */
+    --enfasis4: #1e3a5f; /* Azul noche */
+    
+    --text-color1: #ecf0f1; /* Blanco grisáceo */
+    --text-color2: #bdc3c7; /* Gris claro */
+    --text-color3: #2c3e50; /* Gris azulado */
+    
+    --background-color1: #121212; /* Negro intenso */
+    --background-color2: #1e272e; /* Azul oscuro grisáceo */
+    --background-color3: #2c3e50; /* Azul grisáceo */
+    --background-color4: #3b4d61; /* Azul grisáceo medio */
+    
+    --titulo1: #1f8b7e; /* Verde azulado profundo */
+    --titulo2: #28b3a0; /* Verde azulado */
+
+}
+    
+[data-theme="gray"] {
+    --enfasis1: #2980b9; /* Azul brillante */
+    --enfasis2: #2471a3; /* Azul más oscuro */
+    --enfasis3: #5dade2; /* Azul más claro */
+    --enfasis4: #85c1e9; /* Azul pastel */
+    
+    --text-color1: #2c3e50; /* Azul grisáceo oscuro */
+    --text-color2: #566573; /* Gris azulado medio */
+    --text-color3: #ecf0f1; /* Blanco grisáceo */
+    
+    --background-color1: #f4f6f7; /* Gris muy claro */
+    --background-color2: #e5e8ea; /* Gris claro */
+    --background-color3: #d0d3d4; /* Gris medio */
+    --background-color4: #bdc3c7; /* Gris suave */
+    
+    --titulo1: #1a5276; /* Azul profundo */
+    --titulo2: #2471a3; /* Azul oscuro */
+
+}
+    
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color1);
+    }
+  
+  

@@ -1,0 +1,23 @@
+// src/assets/CountryCodes.js
+export const countryCodes = [
+    { code: '+54', country: 'Argentina', flag: '🇦🇷', digits: 10 },
+    { code: '+591', country: 'Bolivia', flag: '🇧🇴', digits: 8 },
+    { code: '+55', country: 'Brazil', flag: '🇧🇷', digits: 11 },
+    { code: '+56', country: 'Chile', flag: '🇨🇱', digits: 9 },
+    { code: '+57', country: 'Colombia', flag: '🇨🇴', digits: 10 },
+    { code: '+506', country: 'Costa Rica', flag: '🇨🇷', digits: 8 },
+    { code: '+53', country: 'Cuba', flag: '🇨🇺', digits: 8 },
+    { code: '+593', country: 'Ecuador', flag: '🇪🇨', digits: 9 },
+    { code: '+503', country: 'El Salvador', flag: '🇸🇻', digits: 8 },
+    { code: '+502', country: 'Guatemala', flag: '🇬🇹', digits: 8 },
+    { code: '+504', country: 'Honduras', flag: '🇭🇳', digits: 8 },
+    { code: '+52', country: 'Mexico', flag: '🇲🇽', digits: 10 },
+    { code: '+505', country: 'Nicaragua', flag: '🇳🇮', digits: 8 },
+    { code: '+507', country: 'Panama', flag: '🇵🇦', digits: 8 },
+    { code: '+595', country: 'Paraguay', flag: '🇵🇾', digits: 9 },
+    { code: '+51', country: 'Peru', flag: '🇵🇪', digits: 9 },
+    { code: '+1', country: 'Estados Unidos', flag: '🇺🇸', digits: 10 },
+    { code: '+598', country: 'Uruguay', flag: '🇺🇾', digits: 8 },
+    { code: '+58', country: 'Venezuela', flag: '🇻🇪', digits: 10 },
+    { code: '+34', country: 'España', flag: '🇪🇸', digits: 9 },
+];

@@ -1,0 +1,86 @@
+/* Estilo de la tarjeta */
+.tarjeta {
+  background-color: var(--background-color0);
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 24px; /* Espaciado interno */
+  max-width: 1920px; /* Ancho máximo */
+  margin: 20px auto; /* Centrado horizontal */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+  outline: none; /* Eliminar el contorno predeterminado */
+  box-shadow: 0 0 6px 4px var(--enfasis6); /* Resplandor predeterminado */
+  transition: all 0.3s ease; /* Animación suave para el cambio de estilo */
+  width: 1000px;
+}
+ 
+.tarjeta:hover {
+  transform: translateY(-5px); /* Levantar ligeramente al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombras más pronunciadas */
+}
+  
+/* Título de la tarjeta */
+.tarjeta-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--enfasis0);
+  margin-bottom: 16px;
+  text-align: center;
+}
+  
+  .remarco {
+    background-color: var(--background-color1);
+    padding: 16px;
+    border-radius: 10px;
+    text-align: left;
+    display: block;
+    margin-bottom: 16px;
+    color: var(--titulo1);
+  }
+
+  /* Contenedor de los inputs */
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  /* Estilo de los labels */
+  .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555555;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo de los inputs */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff; /* Color azul al enfocar */
+    outline: none;
+  }
+  
+  /* Botón de envío */
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  }

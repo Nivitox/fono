@@ -1,0 +1,213 @@
+/* src/pages/Usuarios.css */
+
+.caja {
+  flex: 1;
+  padding: 1rem;
+  width: 100vh;
+  background-color: transparent;
+  color: var(--text-color1);
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%; /* Resta el ancho del Sidebar */
+  margin-left: 0; /* Elimina el margin-left */
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que ocupe toda la altura */
+  width: 100%; /* Ocupa todo el ancho */
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  align-items: center;
+  flex-grow: 1; /* Se expande en flexbox */
+}
+  
+.header {
+  /* background-color: green; */
+  /* color: var(--enfasis5); */
+  padding: 1rem;
+  text-align: center;
+  position:flex;
+  top: 0;
+  left: 0px;
+  bottom: 50px;
+  right: 500px;
+  z-index: 1000;
+  width: 100%; /* Resta el ancho del Sidebar */
+  margin-left: 0; /* Elimina el margin-left */
+}
+
+.letrasGrandes {
+  color: var(--enfasis2);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--background-color1);
+  border-bottom: 1px solid var(--background-color2);
+
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 0.5rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+  /* src/pages/Usuarios.css */
+
+/* Contenedor principal */
+/* .container {
+  background-color: var(--background-color1);
+  padding: 1rem;
+  min-height: 100vh;
+  width: 95%;
+} */
+
+/* Título */
+.titulo {
+  color: var(--titulo1);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilo de la tabla */
+.tabla-usuarios {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Encabezado de la tabla */
+.tabla-usuarios thead tr th {
+  color: var(--text-color1);
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 2px solid var(--enfasis5);
+}
+
+/* Fila de usuario */
+.fila-usuario {
+  background-color: var(--background-color2);
+  border-bottom: 1px solid var(--background-color3);
+}
+
+/* Celdas de la tabla */
+.fila-usuario td {
+  padding: 0.5rem;
+}
+
+/* Roles */
+.rol-maestro {
+  color: var(--enfasis5);
+  font-weight: bold;
+}
+
+.rol-estandar {
+  color: var(--enfasis3);
+}
+
+/* Estados */
+.estado-activo {
+  color: var(--enfasis2);
+  font-weight: bold;
+}
+
+.estado-inactivo {
+  color: var(--danger1);
+  font-weight: bold;
+}
+
+/* Botones */
+.boton-editar,
+.boton-eliminar {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.boton-editar {
+  background-color: var(--enfasis5);
+  color: var(--text-color3);
+}
+
+.boton-eliminar {
+  background-color: var(--danger1);
+  color: var(--text-color3);
+  margin-left: 0.5rem;
+}

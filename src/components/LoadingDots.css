@@ -1,0 +1,15 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la pantalla */
+    text-align: center;
+    background-color: #121212;
+  }
+  
+  .loading-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28b3a0;
+  }
+  

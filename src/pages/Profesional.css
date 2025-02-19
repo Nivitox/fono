@@ -1,0 +1,11 @@
+.general-container {
+    color: var(--text-color1);
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 1080px; /* Tamaño máximo de la página */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos internos se apilen verticalmente */
+  }

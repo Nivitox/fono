@@ -1,0 +1,35 @@
+/* src/pages/Instituciones.css */
+
+/* Estilos generales del contenedor */
+.general-container {
+  color: var(--text-color1);
+  background-color: var(--background-color1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1080px; /* Tamaño máximo de la página */
+  margin-left: 5%; /* Centra el contenedor horizontalmente */
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos internos se apilen verticalmente */
+}
+
+/* Estilo para el contenido principal dentro del contenedor */
+.content-wrapper {
+  flex-grow: 1;
+  padding: 16px;
+  color: var(--text-color1);
+}
+
+/* Estilo para el ícono decorativo en la esquina inferior derecha */
+.icon-container {
+  position: fixed; /* Hace que el ícono se fije en la pantalla */
+  bottom: 20px; /* Distancia desde la parte inferior */
+  right: 20px; /* Distancia desde la parte derecha */
+  z-index: 10; /* Asegura que el icono esté por encima de otros elementos */
+}
+
+.icon-container svg {
+  width: 500px; /* Tamaño del ícono */
+  height: 500px; /* Tamaño del ícono */
+  color: var(--background-color2);
+  /* fill: var(--enfasis3); Color de relleno, puedes cambiarlo según tus necesidades */
+}

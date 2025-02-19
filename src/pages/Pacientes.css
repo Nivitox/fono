@@ -1,0 +1,23 @@
+/* src/pages/Pacientes.css */
+
+/* Estilos generales del contenedor */
+.general-container {
+  color: var(--text-color1);
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1080px; /* Tamaño máximo de la página */
+  margin-left: 5%; /* Centra el contenedor horizontalmente */
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos internos se apilen verticalmente */
+  min-height: 100vh; /* Hace que el contenedor ocupe toda la altura de la ventana */
+  position: relative; /* Para posicionar el icono dentro de este contenedor */
+}
+
+/* Estilo para el contenido principal dentro del contenedor */
+.content-wrapper {
+  flex-grow: 1;
+  padding: 16px;
+  color: var(--text-color1);
+}
+

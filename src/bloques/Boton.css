@@ -1,0 +1,72 @@
+/* src/bloques/Boton.css */
+
+.basic-button {
+  --dim: 15px;
+  background-color: var(--enfasis9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0px;
+  padding: 5px;
+  /* color: var(--text-color1); */
+  border-radius: 5px; 
+  border: 1px transparent var(--background-color1);
+  box-sizing: border-box;
+} 
+
+.basic-button.inactive {
+  background-color: transparent; /* Fondo transparente cuando está inactivo */
+}
+
+.basic-button.inactive:hover {
+  outline: 1px solid var(--enfasis10);
+  box-sizing: border-box;
+}
+
+.basic-button.inactive svg {
+  color: var(--enfasis8); /* Color del ícono cuando está inactivo */
+} 
+
+.basic-button:hover {
+background-color: var(--enfasis3);
+}
+
+.basic-button svg {
+  width: var(--dim);
+  height: var(--dim);
+  display: block;
+  color: var(--enfasis0);
+} 
+
+.basic-button:hover svg {
+  color: var(--enfasis10);
+} 
+
+.basic-button:active {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+/* .basic-button:active svg{
+  color: var(--enfasis)
+} */
+
+/* .basic-button.inactive:hover svg{
+ color: var(--text-color1);
+} */
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinear los botones a la derecha */
+  gap: 10px; /* Espaciado entre botones */
+}
+
+.botones {
+  display: flex;
+  gap: 10px; /* Espaciado entre los botones */
+  margin-bottom: 10px;
+  justify-content: flex-end; /* Alinea los botones a la derecha */
+}

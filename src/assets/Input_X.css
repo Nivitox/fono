@@ -1,0 +1,143 @@
+/* Contenedor principal */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px auto;
+    margin-bottom: 25px;
+  }
+  
+  /* Encabezado con label y botones */
+  .input-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .input-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--enfasis3);
+  }
+  
+  .botones {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+  
+/* Contenedor del input con ícono */
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* .input-field { */
+input {
+  width: 100%;
+  padding: 7px;
+  /* border: 1px transparent var(--enfasis9); */
+  /* background-color: transparent; */
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+  background-color: var(--background-color2);
+  color: var(--text-color1);
+  border: 1px solid (var(--enfasis1));
+}
+
+.input-field.invalid {
+  border-color: red;
+}
+
+/* .input-field.valid {
+  border-color: green;
+} */
+
+/* Ícono de validación */
+.validation-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  border-radius: 4px;
+  padding: 1px;
+}
+
+
+
+input[type='date'] + .validation-icon {
+  right: 40px; /* Mueve el ícono más a la izquierda para dejar espacio al calendario */
+}
+
+.input-with-icon .validation-icon.valid {
+  fill: green;
+}
+
+input:focus, select:focus {
+  outline: none; /* Eliminar el contorno predeterminado */
+  border-width: 1px; /* Aumentar ligeramente el grosor del borde */
+  box-shadow: 0px 0px 4px 2px var(--enfasis3);
+  transition: all 0.3s ease; /* Animación suave para el cambio de estilo */
+}
+
+input.valid:focus {
+  outline: none;
+  border-color:   var(--enfasis10); 
+  box-shadow: 0 0 4px 2px var(--enfasis5);
+  /* rgba(0, 191, 165, 0.5); Luz difuminada con transparencia */
+}
+
+input.invalid:focus {
+  outline: none;
+  border-color: red; /* Rojo para inputs inválidos */
+  box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5); /* Luz roja difuminada */
+}
+
+/* Opcional: Efecto hover para mejorar la interactividad */
+input:hover, select:hover {
+  border-color: var(--enfasis10); /* Color ligeramente diferente para el hover */
+}
+
+/* Estilos para el input de teléfono */
+.telefono-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--background-color1);
+  /* var(--secondary-color); */
+  color: var(--text-color1);
+}
+
+.telefono-input-container select {
+  color: var(--text-color1);
+  padding: 9px;
+  background-color: var(--background-color2);
+  border: 1px transparent var(--enfasis9);
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+select {
+  color: var(--text-color1);
+  padding: 9px;
+  background-color: var(--background-color2);
+  border: 1px transparent var(--enfasis9);
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.telefono-input-wrapper {
+  position: relative;
+  flex-grow: 1;
+  
+}

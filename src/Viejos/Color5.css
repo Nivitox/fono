@@ -1,0 +1,105 @@
+/* Color.css */
+
+:root {
+  --purpuraVibrante: #9b59b6;
+  --purpuraOscuroIntenso: #8e44ad;
+  --purpuraSuaveClaro: #b37fc4;
+  --purpuraPastelDelicado: #d3a5dd;
+  --azulGrisaceoOscuro: #2c3e50;
+  --grisAzuladoProfundo: #34495e;
+  --blancoGrisaceoSuave: #ecf0f1;
+  --grisMuyClaroSuave: #ecf0f1;
+  --blancoPuro: #ffffff;
+  --grisSuaveNeutro: #dcdde1;
+  --grisCasiBlancoLuminiscente: #f8f9fa;
+  --purpuraProfundoIntenso: #6c3483;
+  --rojoPeligroIntenso: #c41b4a;
+  --rojoPeligroOscuro: #942645;
+  
+  --turquesaBrillanteClaro: #3ddbd9;
+  --azulTurquesaMedioBrillante: #3aa7c1;
+  --azulProfundoOscuro: #2f6fa3;
+  --azulNocheOscuro: #1e3a5f;
+  --grisClaroSuave: #bdc3c7;
+  --negroIntensoProfundo: #121212;
+  --azulOscuroGrisaceoOpaco: #1e272e;
+  --azulGrisaceoMedioModerado: #3b4d61;
+  --verdeAzuladoProfundoOscuro: #1f8b7e;
+  --verdeAzuladoClaro: #28b3a0;
+  
+  --azulBrillanteIntenso: #2980b9;
+  --azulOscuroProfundo: #2471a3;
+  --azulClaroSuave: #5dade2;
+  --azulPastelSuave: #85c1e9;
+  --grisAzuladoMedioSuave: #566573;
+  --grisMuyClaroFondoLuminiscente: #f4f6f7;
+  --grisClaroFondoSuave: #e5e8ea;
+  --grisMedioFondoModerado: #d0d3d4;
+  --grisSuaveFondoNeutro: #bdc3c7;
+  --azulProfundoTituloIntenso: #1a5276;
+}
+
+[data-theme="light"] {
+  --enfasis1: var(--purpuraVibrante);
+  --enfasis2: var(--purpuraOscuroIntenso);
+  --enfasis3: var(--purpuraSuaveClaro);
+  --enfasis4: var(--purpuraPastelDelicado);
+  
+  --text-color1: var(--azulGrisaceoOscuro);
+  --text-color2: var(--grisAzuladoProfundo);
+  --text-color3: var(--blancoGrisaceoSuave);
+  
+  --background-color1: var(--grisMuyClaroFondoLuminiscente);
+  --background-color2: var(--grisClaroFondoSuave);
+  --background-color3: var(--grisMedioFondoModerado);
+  --background-color4: var(--grisClaroSuave);
+  
+  --titulo1: var(--purpuraProfundoIntenso);
+  --titulo2: var(--purpuraOscuroIntenso);
+
+  --danger1: var(--rojoPeligroIntenso);
+  --danger2: var(--rojoPeligroOscuro);
+}
+
+[data-theme="dark"] {
+  --enfasis1: var(--turquesaBrillanteClaro);
+  --enfasis2: var(--azulTurquesaMedioBrillante);
+  --enfasis3: var(--azulProfundoOscuro);
+  --enfasis4: var(--azulNocheOscuro);
+  
+  --text-color1: var(--blancoGrisaceoSuave);
+  --text-color2: var(--grisClaroSuave);
+  --text-color3: var(--azulGrisaceoOscuro);
+  
+  --background-color1: var(--negroIntensoProfundo);
+  --background-color2: var(--azulOscuroGrisaceoOpaco);
+  --background-color3: var(--azulGrisaceoMedioModerado);
+  --background-color4: var(--grisAzuladoProfundo);
+  
+  --titulo1: var(--verdeAzuladoProfundoOscuro);
+  --titulo2: var(--verdeAzuladoClaro);
+}
+
+[data-theme="gray"] {
+  --enfasis1: var(--azulBrillanteIntenso);
+  --enfasis2: var(--azulOscuroProfundo);
+  --enfasis3: var(--azulClaroSuave);
+  --enfasis4: var(--azulPastelSuave);
+  
+  --text-color1: var(--azulGrisaceoOscuro);
+  --text-color2: var(--grisAzuladoMedioSuave);
+  --text-color3: var(--blancoGrisaceoSuave);
+  
+  --background-color1: var(--grisMuyClaroFondoLuminiscente);
+  --background-color2: var(--grisClaroFondoSuave);
+  --background-color3: var(--grisMedioFondoModerado);
+  --background-color4: var(--grisSuaveFondoNeutro);
+  
+  --titulo1: var(--azulProfundoTituloIntenso);
+  --titulo2: var(--azulOscuroProfundo);
+}
+
+body {
+  background-color: var(--background-color1);
+  color: var(--text-color1);
+}

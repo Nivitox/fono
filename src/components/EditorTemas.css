@@ -1,0 +1,91 @@
+/* src/components/EditorTemas.css */
+
+.editor-temas {
+    padding: 10px; /* Reducido el padding para más espacio */
+    background-color: var(--background-color3);
+    border-radius: 8px;
+    border: 10px solid var(--background-color2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 11px; /* Tamaño de fuente más pequeño */
+  }
+  
+  .theme-table th,
+  .theme-table td {
+    padding: 4px 6px; /* Reducido el padding para una tabla más compacta */
+    text-align: left;
+    border-bottom: 1px solid var(--background-color3);
+  }
+  
+  .theme-table th {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-color1);
+  }
+  
+  .color-preview {
+    width: 20px; /* Vista previa más pequeña */
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: inline-block;
+  }
+  
+  input[type="color"] {
+    width: 35px; /* Selector de color más pequeño */
+    height: 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button.btn {
+    padding: 6px 12px; /* Botones más pequeños */
+    font-size: 12px; /* Fuente más pequeña */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.btn-success {
+    background-color: var(--enfasis1);
+    color: white;
+  }
+  
+  button.btn-success:hover {
+    background-color: var(--enfasis2);
+  }
+  
+  .custom-themes-list {
+    margin-top: 15px;
+  }
+  
+  .custom-theme-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .custom-theme-item span {
+    font-size: 11px; /* Fuente más pequeña */
+    color: var(--text-color1);
+  }
+  
+  .btn-danger {
+    background-color: var(--danger1);
+    color: white;
+    border: none;
+    padding: 4px 8px; /* Botón más pequeño */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: var(--danger2);
+  }
+  
